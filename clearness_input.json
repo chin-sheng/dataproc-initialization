@@ -1,0 +1,33 @@
+# clearness inputs
+{
+  "business_unit": "TST002",
+  "request_id": "111604388442988_FIN0102_0",
+  "inputs": {
+    "image_cv_id": "438ffd10-1090-4687-be84-8f6c36be463a",
+    "objects": [
+        # 想確認人臉區塊的清晰程度
+        {
+        "tag": "face",
+        "x_min":1,
+        "y_min":2,
+        "x_max":3,
+        "y_max":4,
+        "height_thres": 500,
+        "width_thres": 500,
+        "fm_thres": 250
+        },
+        # 想確認身分證區塊的清晰程度
+        {
+        "tag": "id_card",
+        "x_min":1,
+        "y_min":2,
+        "x_max":3,
+        "y_max":4,
+        "height_thres": 500,
+        "width_thres": 500,
+        "fm_thres": 250
+        },
+        ...
+    ]
+  }
+}
