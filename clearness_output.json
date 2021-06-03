@@ -1,4 +1,3 @@
-# clearness outputs
 {
   "business_unit": "TST002",
   "request_id": "111604388442988_FIN0102_0",
@@ -28,8 +27,7 @@
           "height": 300,
           "width": 300,
           "fm": 150
-          },
-          ...
+          }
       ],
       "status_code": "0000",
       "status_msg": "OK"
