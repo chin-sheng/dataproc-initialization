@@ -1,0 +1,17 @@
+# detection inputs
+{
+  "business_unit": "TST002",
+  "request_id": "111604388442988_FIN0102_0",
+  "inputs": {
+    "image_cv_id": "438ffd10-1090-4687-be84-8f6c36be463a",
+    "objects": [
+        {
+        "tag": "face",
+        "detection_prob_thres": 0.7
+        },
+        {
+        "tag": "id_card",
+        "detection_prob_thres": 0.7
+        }
+    ]
+}
