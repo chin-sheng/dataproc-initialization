@@ -1,0 +1,33 @@
+# detection outputs
+{
+  "business_unit": "TST002",
+  "request_id": "111604388442988_FIN0102_0",
+  "trace_id": "287f259c-8a93-429e-b8c3-80d864d946ab",
+  "request_time": 1597222586.123456,
+  "response_time": 1597222586.183456,
+  "duration_time": 0.06,
+  "outputs": {
+      "image_cv_id": "438ffd10-1090-4687-be84-8f6c36be463a",
+      "objects": [
+          {
+          "tag": "face",
+          "prob": 0.9,
+          "x_min": 1,
+          "y_min": 2,
+          "x_max": 3,
+          "y_max": 4
+          },
+          {
+          "tag": "id_card",
+          "prob": 0.8,
+          "x_min": 1,
+          "y_min": 2,
+          "x_max": 3,
+          "y_max": 4
+          },
+          ...
+      ],
+      "status_code": "0000",
+      "status_msg": "OK"
+  }
+}
